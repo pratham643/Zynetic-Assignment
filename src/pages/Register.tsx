@@ -26,7 +26,7 @@ export default function Register() {
       <div className="max-w-md w-full space-y-8">
         <div className="text-center">
           <Package className="mx-auto h-12 w-12 text-indigo-600" />
-          <h2 className="mt-6 text-3xl font-extrabold text-gray-900">Create your account</h2>
+          <h2 className="mt-6 text-3xl font-extrabold text-gray-900">Create your account / Zynetic Assignment</h2>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <div className="rounded-md shadow-sm -space-y-px">
