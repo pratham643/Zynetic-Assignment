@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://zynetic-backend1.vercel.app/api';
+const API_URL = import.meta.env.VITE_API_URL || '../zynetic-backend1.vercel.app/api';
 
 export const api = axios.create({
   baseURL: API_URL,
