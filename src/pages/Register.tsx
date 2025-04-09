@@ -14,7 +14,8 @@ export default function Register() {
     e.preventDefault();
     try {
       await signUp(email, password);
-      toast.success('Registration successful! Please sign in.');
+      toast.success('Registration successful! Please check your email to verify your account.');
+      alert('Please check your email to verify your account.');
       navigate('/login');
     } catch (error) {
       toast.error('Registration failed');
