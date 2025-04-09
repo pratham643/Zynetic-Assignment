@@ -38,11 +38,23 @@ export default function Products() {
   useEffect(() => {
     fetchProducts();
   }, []);
+// Personlised its shows only own added
+  // const fetchProducts = async () => {
+  //   try {
+  //     const data = await getProducts();
+  //     setProducts(data.filter(product => product.user_id === session?.user.id));
+  //   } catch (error) {
+  //     toast.error('Error fetching products');
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
-  const fetchProducts = async () => {
+  // Universal all users product shows
+    const fetchProducts = async () => {
     try {
       const data = await getProducts();
-      setProducts(data.filter(product => product.user_id === session?.user.id));
+      setProducts(data);
     } catch (error) {
       toast.error('Error fetching products');
     } finally {
