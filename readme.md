@@ -1,4 +1,4 @@
-# Product Management Web App
+# Zynetic Assignment
 
 This is a **Full Stack Product Management Web App** built using **React.js** for the frontend and **Node.js (Express with PostgreSQL)** for the backend. It allows users to authenticate, manage products (CRUD), and filter/search products efficiently.
 
