@@ -90,7 +90,6 @@ npm run build
 Then deploy the `dist/` folder using **Vercel, Netlify, or any hosting service**.
 
 
-## 📜 License
-This project is licensed under the **MIT License**.
+
 
 ---
