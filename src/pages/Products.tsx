@@ -42,7 +42,7 @@ export default function Products() {
   const fetchProducts = async () => {
     try {
       const data = await getProducts();
-      setProducts(data);
+      setProducts(data.filter(product => product.user_id === session?.user.id));
     } catch (error) {
       toast.error('Error fetching products');
     } finally {
